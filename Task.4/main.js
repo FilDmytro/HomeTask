@@ -7,7 +7,7 @@
 // if (userLogin === 'admin' && userPassword === '12pass33210') {
 //     console.log("Login is successful");
 // } else if (userLogin !== 'admin' && userPassword !== '12pass33210') {
-//    console.log("You do not have access to admin panel");
+//     console.log("You do not have access to admin panel");
 // } else {
 //     console.log("Problem with login or password");
 // }
@@ -16,9 +16,9 @@
 
 
 // const watermelonPrice = 21,
-//       carrotPrice = 8,
-//       potatoPrice = 12,
-//       tomatoPrice = 20;
+//     carrotPrice = 8,
+//     potatoPrice = 12,
+//     tomatoPrice = 20;
 
 // let selectedProduct;
 // let productQuantity;
@@ -28,7 +28,7 @@
 // if (userMoney >= watermelonPrice && userMoney >= carrotPrice && userMoney >= potatoPrice && userMoney >= tomatoPrice) {
 //     console.log(`Price: watermelon: 21 UAH, carrot: 8 UAH, potato: 12 UAH, tomato: 20 UAH.`);
 //     selectedProduct = prompt('select a product');
-// } 
+// }
 
 // if (userMoney <= watermelonPrice && userMoney <= carrotPrice && userMoney <= potatoPrice && userMoney <= tomatoPrice) {
 //     console.log("Unfortunately, you do not have enough funds to purchase at least one of the products");
@@ -52,7 +52,7 @@
 //     console.log(`Unfortunately, you do not have enough funds to buy at least one potato`);
 // } else if (selectedProduct === "tomato" && userMoney <= tomatoPrice) {
 //     console.log(`Unfortunately, you do not have enough funds to buy at least one tomato`);
-// } 
+// }
 
 // const a = +prompt("firstSideTrincle?");
 // const b = +prompt("secondSideTrincle?");
@@ -61,7 +61,7 @@
 // trincle = a + b > c && a + c > b && b + c > a;
 // console.log(trincle);
 
-// 2 && 0 && 3 || true && false   (все зводиться до 0 || false та дорівнює false)
-//  false || " " || 3 && true  (все зводиться до " " || true та дорівнює " ")
-// 1 && 1000 && '0' || 0 && 'Bob'  (все зводиться до '0' || 0 та дорівнює '0')
-// -1 || 0 || 0 && "" || 1010 (все зводиться до -1 || 1010 та дорівнює -1)
+// 2 && 0 && 3 || true && false(все зводиться до 0 || false та дорівнює false)
+// false || " " || 3 && true(все зводиться до " " || true та дорівнює " ")
+// 1 && 1000 && '0' || 0 && 'Bob'(все зводиться до '0' || 0 та дорівнює '0')
+// - 1 || 0 || 0 && "" || 1010(все зводиться до - 1 || 1010 та дорівнює - 1)
