@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timer">
+            <h2 class="header">Timer:</h2>
+            <p id="display"></p>
+        </div>
+        <input type="text" id="input" required placeholder="Enter time"/>
+        <button class="btn start">Start</button>
+    </div>
+    <div class="wrapper">
+        <div class="calendar" id="calendar">
+            <div class="data-time">
+                <h2 id="days">00</h2>
+                <p>Days</p>
+            </div>
+            <div class="data-time">
+                <h2 id="hours">00</h2>
+                <p>Hours</p>
+            </div>
+            <div class="data-time">
+                <h2 id="minutes">00</h2>
+                <p>Minutes</p>
+            </div>
+            <div class="data-time">
+                <h2 id="seconds">00</h2>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <input type="date" id="input-data"/>
+        <button class="btn confirm" id="confirm">Confirm</button>
+    </div>
+    <div class="price-wrapper">
+        <div class="price">
+            <h3>Let`s choose our phone and find out the price</h3>
+            <select name="phone brand" id="brand">
+                <option value="select brand">select brand</option>
+                <option value="iphone">iphone</option>
+                <option value="samsung">samsung</option>
+                <option value="nokia">nokia</option>
+            </select>
+            <select name="RAM GB" id="RAM">
+                <option value="select RAM GB">select RAM GB</option>
+                <option value="64">64</option>
+                <option value="256">256</option>
+                <option value="512">512</option>
+            </select>
+            <select name="integral storage GB" id="integral-storage">
+                <option value="select integral storage GB">select integral storage GB</option>
+                <option value="128">128</option>
+                <option value="256">256</option>
+                <option value="512">512</option>
+            </select>
+            <button class="button choose" id="choose">Choose</button>
+            <p class="model"></p>
+            <p class="out-price">our price</p>
+            
+        </div>
+    </div>
+<script src="main.js"></script>  
+</body>
+</html>
