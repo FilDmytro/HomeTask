@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+} 
+
+body {
+    width: 100%;
+    background: url("https://inlviv.in.ua/wp-content/uploads/2019/09/lead.jpg") no-repeat;
+}   
+
+.conteiner {
+    margin: 0 auto;
+    max-width: 0 1630px;
+    
+}
+
+select {
+    cursor: pointer;
+}
+
+.search {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    cursor: pointer; 
+}
+
+.city {
+    width: 150px;
+    margin-right: 10px;
+    
+}
+
+#btnGetWeather {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.weather-list {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.list-item {
+    width: 100%;
+    
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    color: azure;
+    background-color: rgb(249, 67, 0);
+    opacity: 80%;   
+}
+
+.date-style {
+    padding-top: 10px;
+}
+
+.min-temp {
+    padding-top: 20px;
+}
+
+.max-temp {
+    padding-bottom: 20px;
+}
+
+
+
+.night-Phrase {
+    padding-bottom: 10px;
+}
+
+
+
